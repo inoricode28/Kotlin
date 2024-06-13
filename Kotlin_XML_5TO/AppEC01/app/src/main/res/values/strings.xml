@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppEC01</string>
+    <string name="TFraccion">Estacionamiento</string>
+    <string name="HoraF">Hora</string>
+    <string name="MinutosF">Minutos</string>
+    <string name="BotoF">Calcular</string>
+    <string name="HinyHora">Hora</string>
+    <string name="HintMinutos">Minutos</string>
+    <string name="ResuladoF">Resultado</string>
+    <string name="TituloNotas">Promedio de Notas</string>
+    <string name="Nota1">Ingrese Nota</string>
+    <string name="Nota2">Ingrese Nota</string>
+    <string name="Nota3">Ingrese Nota</string>
+    <string name="Nota4">Ingrese Nota</string>
+    <string name="BtnCalcularNota">Calcular</string>
+    <string name="ResuatladoNotas">Resultado</string>
+    <string name="TituloReniec">Reniec</string>
+    <string name="AnioReniec">Ingrese Año</string>
+    <string name="VerificarAnio">Validar</string>
+    <string name="ValicadionResu">Resultado</string>
+    <string name="TituloCaracNum">Numero Caracteres</string>
+    <string name="ConversionNumCh">Conversion</string>
+    <string name="CoversionChN">Ingrese un Numnero</string>
+    <string name="ResiultNumCh">Resultado</string>
+    <string name="AnioB">Año Bisiesto</string>
+    <string name="AnioBis">Ingrese Año</string>
+    <string name="ValidarAB">Validar</string>
+    <string name="txtResultBS">Resultado</string>
+</resources>
