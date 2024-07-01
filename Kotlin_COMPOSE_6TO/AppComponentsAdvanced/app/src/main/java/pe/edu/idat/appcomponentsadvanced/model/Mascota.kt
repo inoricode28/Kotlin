@@ -1,3 +1,10 @@
 package pe.edu.idat.appcomponentsadvanced.model
 
-data class Mascota()
+import androidx.annotation.DrawableRes
+
+data class Mascota(
+    var nombre: String,
+    var raza: String,
+    var anios: Int,
+    @DrawableRes var imagen: Int
+)
