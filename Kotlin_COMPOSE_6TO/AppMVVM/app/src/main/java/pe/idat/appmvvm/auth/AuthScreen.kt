@@ -1,6 +1,7 @@
 package pe.idat.appmvvm.auth
 
 import android.app.Activity
+import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
+import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedTextField
@@ -57,10 +59,23 @@ fun cuerpo(modifier: Modifier, authViewModel: AuthViewModel){
         txtusuario(usuario) { authViewModel.onLoginTextChanged(it, password) }
         Spacer(modifier = Modifier.size(15.dp))
         txtpassword(password) { authViewModel.onLoginTextChanged(usuario,it) }
+        Spacer(modifier = Modifier.size(15.dp))
+        authButton(authViewModel)
 
 
     }
 }
+
+@Composable
+fun authButton(authViewModel: AuthViewModel){
+    Button(onClick = {
+        Log.i("LOGINMVVM",authViewModel.autenticarUsuario().toString())
+    }) {
+        Text(text = "Ingresar")
+
+    }
+}
+
 
 
 @Composable
