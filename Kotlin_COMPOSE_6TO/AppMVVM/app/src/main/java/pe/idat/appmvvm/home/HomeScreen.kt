@@ -11,8 +11,7 @@ import androidx.navigation.NavController
 @Composable
 fun home(navController: NavController,id: Int){
     Box(modifier = Modifier.fillMaxSize()){
-        Text(text = "Bienvenido",
+        Text(text = "Bienvenido $id",
             Modifier.align(Alignment.Center))
     }
-
 }

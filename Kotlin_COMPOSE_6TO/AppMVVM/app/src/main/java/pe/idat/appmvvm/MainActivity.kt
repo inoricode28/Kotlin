@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                     startDestination = Routes.loginScreen.path,
                     builder = {
                         composable(Routes.loginScreen.path){
-                            authScreen(AuthViewModel())
+                            authScreen(AuthViewModel(),navigation)
                         }
                         composable(Routes.homeScreen.path,
                             arguments = listOf(navArgument("id"){type = NavType.IntType})
