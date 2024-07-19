@@ -14,4 +14,3 @@ fun ListaPostScreen(postViewModel: PostViewModel){
     }
 
 }
-
