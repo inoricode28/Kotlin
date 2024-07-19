@@ -55,3 +55,14 @@ para la injecion de dependencias
 para liberar la internet en el manifest:
 
  <uses-permission android:name="android.permission.INTERNET" />
+
+
+//Nota: Ctrl + Alt + L es igual a tabular
+
+Este causa error
+androidx-material3 = { group = "androidx.compose.material3:material3-android", name = "material3" }
+
+
+
+
+
